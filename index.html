@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.ico">
+    <title>SIK ONLINE © SISTEM INFORMASI KELULUSAN</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+        .navbar, .container{
+            font-family: 'Abel', sans-serif;
+        }
+        </style>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-image: url(/img/background.png);">
+    <!-- Navvbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2A820A;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/img/home.png" alt="navabr_icon" style="height: 20px; margin-right: 10px; margin-bottom: 3px;">
+                <span style="font-size: 18px;"><b>Sistem Informasi kelulusan</b></span>
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span style="font-size: 18px;"><b>Cek Kelulusan</b></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Start -->
+    <div class="container" style="display: flex; text-align: center; justify-content: center;">
+        <div style="top: 50%; transform: translate(0, -50%); position: absolute; background-color: #F5F5F5; padding: 18px; border-radius: 8px;">
+            <p><img src="/img/logo.png" alt="logosma" style="height: 75px;"></p>
+                <h4 style="font-size: 18px; color: #A20909;">
+                    <b>
+                    SISTEM INFORMASI
+                    <br>
+                    STATUS KELULUSAN SISWA
+                    </b>
+                </h4>
+                    <hr>
+                <div class="alert" style="background-color: #D7E7CB;">
+                    <h4 style="margin: -8px; margin-bottom: -0.5px;">
+                        <span style="font-size: 18px; color:green">
+                        <b>WAKTU PENGUMUMAN KELULUSAN</b>
+                        <br>
+                            <div class="countdown">
+                                <b class="day"></b> <b>:</b>
+                                <b class="hour"></b> <b>:</b>
+                                <b class="minute"></b> <b>:</b>
+                                <b class="second"></b>
+                            </div>
+                        </span>
+                    </h4>
+                </div>
+                    <hr>
+                <div class="form-group" style="margin-bottom: -20px;">
+                    <p><a href="#" class="btn btn-danger">CEK KELULUSAN</a></p>
+                </div>
+        </div>
+    </div>
+    <!-- Page End -->
+
+    <!-- Footer Start -->
+    <nav class="navbar fixed-bottom navbar-dark" style="text-align: center; justify-content: center; font-size: 13px; background-color: #2A820A; color: white;">
+        SMAN 1 Tempeh
+        <br>
+        Sistem Informasi Kelulusan © 2022
+    </nav>
+    <!-- Footer End -->
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
